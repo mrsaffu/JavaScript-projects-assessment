@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Search for a mobile..." />
+        <button id="searchButton">Search</button>
+    </div>
+
+    <h1>Mobile Details</h1>
+    <table id="table">
+        <thead>
+            <tr>
+                <th>Serial No</th>
+                <th>Mobile Name</th>
+                <th>Color</th>
+                <th>Price</th>
+                <th>Image</th>
+            </tr>
+        </thead>
+        
+        <tfoot>
+            <tr>
+                <th colspan="4">Total</th>
+                <th id="total"></th>
+            </tr>
+        </tfoot>
+
+    </table>
+
+    <script src="./script.js " type="module"></script>
+  
+</body>
+
+</html>

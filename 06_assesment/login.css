@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    /* border: 2px solid red; */
+    height: 100vh;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background-color: darkgray;
+
+    
+}
+form{
+    /* border: 2px solid red; */
+    height: 350px;
+    width: 400px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    gap: 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+input{
+    height: 40px;
+    width: 300px;
+    padding-left: 15px;
+    border-radius: 5px;
+    box-shadow: inset 2px 2px 5px #bcbcbc, inset -2px -2px 5px #ffffff, 2px 2px 5px #bcbcbc, -2px -2px 5px #ffffff;
+    border: none;
+    background-color: rgba(245, 245, 245, 0);
+    
+}
+
+#showpwd{
+    height: 40px;
+    width: 250px;
+    border-radius: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border: none;
+    background-color: rgba(245, 245, 245, 0);
+
+    /* background-color: white; */
+    color: green;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+  
+}
+
+#showpwd:hover{
+    background-color: green;
+    color: white;
+
+}
+
+
+#submit_btn{
+    height: 40px;
+    width: 250px;
+    border-radius: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border: none;
+    /* background-color: white; */
+    background-color: rgba(245, 245, 245, 0);
+
+    color: blue;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+
+}
+#submit_btn:hover{
+    background-color: rgb(46, 46, 243);
+    color: white;
+}
+
+
+
+h1{
+ font-size: 25px;
+ color: rgb(93, 92, 92);
+ 
+}
+.warning{
+    border: 2px solid red;
+    outline: none;
+   
+}
+.success{
+    border: 2px solid green;
+    outline: none;
+}

@@ -1,0 +1,337 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  /* background-color: #2f1b0c; */
+
+  height: auto;
+}
+
+.mainContainer {
+  /* border: 2px solid white; */
+  /* border-radius: 10px; */
+  /* background-color: #2f1b0c; */
+  background-color: black;
+  
+  /* background-color: #4f3625; */
+
+  height: 100%;
+  width: 100%;
+  /* background-color: #2f1b0c; */
+
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  /* padding: 10px; */
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  /* gap: 20px; */
+}
+
+/* -----------------------navBar------------------------------- */
+.navbar {
+  
+  /* border: 2px solid yellow; */
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: #202020; */
+  background-color: #2f1b0c;
+  
+  padding: 10px 28px;
+  position: fixed;
+}
+.navbar .logo img {
+  height: 30px;
+}
+.navbar .nav-links {
+  display: flex;
+  gap: 20px;
+}
+.navbar .nav-links a {
+  color: white;
+  /* color: black; */
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+.navbar .nav-links a:hover {
+  color: #e62429;
+}
+.navbar .search-container {
+  display: flex;
+  align-items: center;
+}
+.navbar .search-container input {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0px 0px 4px;
+  font-size: 16px;
+  /* height: 30px; */
+  /* width: 150px; */
+}
+.navbar .search-container button {
+  /* margin-right: 50px; */
+  padding: 5px 10px;
+  background-color: #e62429;
+  border: none;
+  color: white;
+  font-size: 5px;
+  border-radius: 0px 4px 4px 0px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.navbar .search-container button:hover {
+  background-color: #b71c1c;
+}
+.navbar .search-container button img {
+  height: 19px;
+  width: 18px;
+}
+
+/* ------------------------------------------------------- */
+
+.box2 {
+  /* border: 2px solid white; */
+  /* margin-top: 100px; */
+  height: 300px;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  /* margin: 20px; */
+  /* margin-bottom: 30px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* flex-direction: column; */
+  margin: 100px 20px 0px 20px;
+  padding: 0px 22px 0px 22px;
+}
+
+.box2 img {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  /* padding: 10px; */
+  height: 100%;
+  width: 19%;
+  /* border: 2px solid red; */ 
+  border-radius: 5px;
+}
+
+.box3 {
+  /* border: 2px solid red; */
+  margin-top: 50px;
+  width: 100%;
+  padding-left: 30px;
+}
+.box3 p {
+  font-size: 20px;
+  color: white;
+  /* padding-left: 98px; */
+  /* color: red; */
+}
+.box4 {
+  /* border: 2px solid red; */
+  border-radius: 0px 0px 10px 10px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  gap: 30px;
+  padding: 20px;
+}
+
+.card {
+  /* border: 2px solid blue; */
+  height: auto;
+  width: 300px;
+  /* background-color: #4f3625; */
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  /* gap: 8px; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.card img {
+  height: 350px;
+  width: 100%;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.card h4 {
+  /* border: 2px solid red; */
+  height: 8%;
+  font-size: 15px;
+  color: white;
+  padding: 13px 0px 0px 10px;
+}
+.card div {
+  /* border: 2px solid rebeccapurple; */
+  height: 8%;
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 30px;
+  padding: 0px 0px 10px 10px;
+}
+.card div p {
+  color: rgb(194, 190, 190);
+}
+
+/* ------------------- previous / next container ------------------------- */
+
+.box5 {
+  /* border: 2px solid red; */
+  height: 80px;
+  width: 100%;
+  margin: 20px 0px 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 32px 0px 32px;
+  background-color:bla;
+  /* background-color: #2f1b0c; */
+  /* background-color: black; */
+}
+.box5 button {
+  background-color: #e62429;
+  border: none;
+  height: 45px;
+  width: 100px;
+  border-radius: 5px;
+  color: white ;
+}
+.box5 button:hover {
+  background-color: #b71c1c;
+}
+.buttonDisable {
+  pointer-events: none; /* Prevent clicks */
+  opacity: 0.5; /* Make it look disabled */
+  cursor: not-allowed; /* Change cursor to show it's not clickable */
+  background-color: #ccc; /* Optional: Change background to indicate it's disabled */
+  color: #777; /* Optional: Change text color */
+}
+
+/* ---------------------footer------------------------ */
+
+
+.footer {
+ 
+  background-color: #2f1b0c;
+
+  padding: 2rem 0;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer-logo {
+  flex: 1 100%;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.logo-image {
+  max-width: 150px;
+  height: auto;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+  padding: 1rem;
+}
+
+.footer-title {
+  color: #e62429;
+  margin-bottom: 1rem;
+}
+
+.footer-text {
+  line-height: 1.6;
+}
+
+.footer-link {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  margin: 0.5rem 0;
+}
+
+.footer-link:hover {
+  color: #e62429;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer-icon {
+  color: #fff;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.footer-icon:hover {
+  color: #e62429;
+}
+
+.footer-form {
+  margin-top: 1rem;
+}
+
+.footer-input {
+  padding: 0.5rem;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.footer-button {
+  background-color: #e62429;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer-button:hover {
+  background-color: #bf1f22;
+}
+
+.footer-bottom {
+  /* border: 2px solid red; */
+  text-align: center;
+  margin-top: 2rem;
+  border-top: 1px solid #333;
+  padding-top: 1rem;
+}
+
+
+/* -------------------- Footer Styles ---------------------------- */
+
+
